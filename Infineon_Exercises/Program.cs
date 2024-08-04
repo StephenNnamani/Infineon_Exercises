@@ -1,10 +1,12 @@
-﻿namespace Infineon_Exercises
+﻿using Infineon_Exercises.Exercise_3a;
+
+namespace Infineon_Exercises
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            // Solution
+            // Exercise One Solution
             int[] checker = new int[100];
 
             for (int i = 1; i <= 100; i++)
@@ -23,6 +25,12 @@
                 }
             }
 
+            TestClass.TestMethod(checker);
+
+            // Exercise 3A
+            ClassA ParentClass = new ClassA();
+            ClassC ThirdGenClass = new ClassC();
+            ThirdGenClass.PrintMessage("I am Alive :)");
         }
     }
 }
