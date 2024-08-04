@@ -21,3 +21,8 @@ Just for the fun: I added a small animation with ```Thread.sleep(600);``` to pri
 
 #### Exercise Three
 This is simply to demonstrate my response on the pdf submited. 
+
+
+## Additional Link
+The GitHub link to the referenced repo where the design patterns were used
+https://github.com/StephenNnamani/CompanyEmployees.git
