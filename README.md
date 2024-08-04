@@ -18,3 +18,6 @@ The else simply adds the non-duplicated random number to checker in the index of
 ``` TestClass.TestMethod(checker); ``` is just the class/method that I wrote to verify the exercise by passing in the checker[] which contains all the valid random numbers. It loops through the array to see if the numbers 1 - 100 are contained in the checker[]. 
 
 Just for the fun: I added a small animation with ```Thread.sleep(600);``` to print "-" (loading effect) and ```Console.ForegroundColor = ConsoleColor.color;``` to change the colors to RED when there's a duplicated number and GREEN when there's none
+
+#### Exercise Three
+This is simply to demonstrate my response on the pdf submited. 
