@@ -14,3 +14,7 @@ we will reduce the value of i (iteration) by 1 i.e ```i--;``` which will help us
 The else simply adds the non-duplicated random number to checker in the index of ```i-1``` because our iteration started from 1 but the index of every array starts from 0.
 ```if (x % 7 == 0) Console.WriteLine("Lucky number!");``` Just checks if the random number generated is divisible by 7 without remainder, then it outputs "Lucker number!"
 ```if (i % 5 == 0) Console.WriteLine("---");``` checks if it has made up to 5 iterations by using the modulo operator to confirm if the number of iterations is divisible by 5 without remainder.
+
+``` TestClass.TestMethod(checker); ``` is just the class/method that I wrote to verify the exercise by passing in the checker[] which contains all the valid random numbers. It loops through the array to see if the numbers 1 - 100 are contained in the checker[]. 
+
+Just for the fun: I added a small animation with ```Thread.sleep(600);``` to print "-" (loading effect) and ```Console.ForegroundColor = ConsoleColor.color;``` to change the colors to RED when there's a duplicated number and GREEN when there's none
