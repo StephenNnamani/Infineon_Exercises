@@ -9,6 +9,7 @@ namespace Infineon_Exercises
             // Exercise One Solution
             int[] checker = new int[100];
 
+
             for (int i = 1; i <= 100; i++)
             {
                 int x = new Random().Next(1, 101);
