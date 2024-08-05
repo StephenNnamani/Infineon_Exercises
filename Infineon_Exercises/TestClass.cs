@@ -18,8 +18,11 @@ namespace Infineon_Exercises
                 if (!testArray.Contains(i))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Test Failed Validation ---- there is a repeated number " + i);
+                    Console.WriteLine("Test Failed Validation ---- there is a repeated number");
                     Console.ResetColor();
+                    Console.WriteLine("Press any key to exit");
+                    Console.ReadLine();
+                    Environment.Exit(0);
                 }
                 if (i % 5 == 0) { Thread.Sleep(600);  Console.Write("- "); }
             }
